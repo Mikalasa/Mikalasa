@@ -16,7 +16,7 @@
 - 📄 Know about my experiences [xxxxxxxxxxxxx](xxxxxxxxxxxxx)
 - ⚡ Fun fact **xxxxxxxxxxxxxxxx**
 
-<h4 align="left">📱 My Social Links</h4>
+<h4 align="left">📱 Social Links</h4>
 <div align="left" style="line-height: 0;">
   <a href="https://www.linkedin.com/in/xingyi-li-homeink/" target="_blank" style="text-decoration: none;">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="39" height="30" alt="linkedin logo" />
@@ -35,7 +35,7 @@
 </br>
 
 
-<h3 align="left">🔥 My Skills 🔥</h3>
+<h3 align="left">🔥 Skills 🔥</h3>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
@@ -112,7 +112,7 @@
 
 </br>
 
-<h2 align="center">👨‍💻 Pined Repositories 👨‍💻</h2>
+<h2 align="center">💻 Pined Repositories 💻</h2>
 
 </br>
 
@@ -120,16 +120,10 @@
   <a href="https://github.com/mikalasa/enctryption-and-decryption-webapp" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikalasa&repo=enctryption-and-decryption-webapp&theme=dark" alt="Readme Card" />
   </a>
-  <a href="https://github.com/mikalasa/enctryption-and-decryption-webapp" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikalasa&repo=enctryption-and-decryption-webapp&theme=dark" alt="Readme Card" />
+  <a href="https://github.com/mikalasa/todo-list" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikalasa&theme=dark&repo=todo-list" alt="Readme Card" />
   </a>
   <br>
-  <a href="https://github.com/mikalasa/enctryption-and-decryption-webapp" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikalasa&repo=enctryption-and-decryption-webapp&theme=dark" alt="Readme Card" />
-  </a>
-  <a href="https://github.com/mikalasa/enctryption-and-decryption-webapp" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikalasa&repo=enctryption-and-decryption-webapp&theme=dark" alt="Readme Card" />
-  </a>
 </div>
 
 
