@@ -17,11 +17,20 @@
 - ⚡ Fun fact **xxxxxxxxxxxxxxxx**
 
 <h4 align="left">📱 My Social Links</h4>
-<div align="left">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="39" height="30" alt="linkedin logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="39" height="30" alt="twitter logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/behance/default.svg" width="39" height="30" alt="discord logo"  />
+<div align="left" style="line-height: 0;">
+  <a href="https://www.linkedin.com/in/xingyi-li-homeink/" target="_blank" style="text-decoration: none;">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="39" height="30" alt="linkedin logo" />
+  </a>
+  <a href="https://twitter.com/25762wuwutima" target="_blank" style="text-decoration: none;">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="39" height="30" alt="twitter logo" />
+  </a>
+  <a href="https://www.behance.net/stringx" target="_blank" style="text-decoration: none;">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/behance/default.svg" width="39" height="30" alt="behance logo" />
+  </a>
 </div>
+
+
+
 
 </br>
 
