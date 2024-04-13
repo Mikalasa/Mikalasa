@@ -102,7 +102,7 @@
   </br>
   <h2 align="center">🏆 Achievements 🏆</h2>
   </br>
-  <img src="https://github-profile-trophy.vercel.app?username=mikalasa&theme=apprentice&column=-1&row=2&margin-w=10&margin-h=10&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=mikalasa&theme=apprentice&column=4&row=2&margin-w=10&margin-h=10&no-bg=false&no-frame=false&order=4" height="300" alt="trophy graph"  />
 </div>
 
 
