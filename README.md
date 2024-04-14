@@ -6,16 +6,15 @@
   <img src="https://komarev.com/ghpvc/?username=stringx&label=Profile%20views&color=0e75b6&style=flat" alt="stringx" />
 </p>
 
-- 🔭 I’m currently working on degree **Master of Software Development**
+- 🦾 I’m currently working on degree **Master of Software Development**
 - 🔭 I’m currently enhancing my skills through the **Harvard CS50** and **MIT 6.102** open courses.
-- 🌱 I’m passionate about web, front-end, full-stack, and back-end development.
-- 🕹️ Fun fact **I like playing video gaming**
+- 🌱 I’m passionate about **web**, **front-end**, **full-stack**, and **back-end development**.
+- 🕹️ Fun fact **I ❤️ video gaming**
 
 </br>
 
-- 📫 Email: **xxxxxxxxxxxxx**
+- 📫 Email: **xingyi213@outlook.com**
 - 📄 My profile website: [StringX](https://mikalasa.github.io/ProfileWeb/)
-
 
 
 
