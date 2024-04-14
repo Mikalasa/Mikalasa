@@ -3,12 +3,12 @@
 <h1 align="center">Hi 👋, I'm Xingyi Li</h1>
 <h3 align="center">A passionate frontend developer</h3>
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=stringx&label=Profile%20views&color=0e75b6&style=flat" alt="stringx" />
+  <img src="https://komarev.com/ghpvc/?username=mikalasa&label=Profile%20views&color=0e75b6&style=flat" alt="mikalasa" />
 </p>
 
 - 🦾 I’m currently working on degree **Master of Software Development**
 - 🔭 I’m currently enhancing my skills through the **Harvard CS50** and **MIT 6.102** open courses.
-- 🌱 I’m passionate about **web**, **front-end**, **full-stack**, and **back-end development**.
+- 🌱 I’m passionate about **web**, **front-end**, **back-end**, and **full-stack** development.
 - 🕹️ Fun fact **I ❤️ video gaming**
 - 📫 Email: **xingyi213@outlook.com**
 - 📄 My profile website: [StringX](https://mikalasa.github.io/ProfileWeb/)
