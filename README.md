@@ -10,9 +10,6 @@
 - 🔭 I’m currently enhancing my skills through the **Harvard CS50** and **MIT 6.102** open courses.
 - 🌱 I’m passionate about **web**, **front-end**, **full-stack**, and **back-end development**.
 - 🕹️ Fun fact **I ❤️ video gaming**
-
-</br>
-
 - 📫 Email: **xingyi213@outlook.com**
 - 📄 My profile website: [StringX](https://mikalasa.github.io/ProfileWeb/)
 
@@ -20,9 +17,6 @@
 
 <h4 align="left">📱 Social Links</h4>
 <div align="left" style="line-height: 0;">
-  <a href="https://www.linkedin.com/in/xingyi-li-homeink/" target="_blank" style="text-decoration: none;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="39" height="30" alt="linkedin logo" />
-  </a>
   <a href="https://twitter.com/25762wuwutima" target="_blank" style="text-decoration: none;">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="39" height="30" alt="twitter logo" />
   </a>
@@ -98,13 +92,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=mikalasa&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false&order=1" height="160" alt="stats graph"  />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mikalasa&theme=dark" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mikalasa&radius=16&theme=merko&area=true&order=5" height="245" alt="activity-graph graph"  />
-
   
   </br>
-  </br>
-  <h2 align="center">🏆 Achievements 🏆</h2>
-  </br>
-  <img src="https://github-profile-trophy.vercel.app?username=mikalasa&theme=apprentice&column=4&row=2&margin-w=10&margin-h=10&no-bg=false&no-frame=false&order=4" height="300" alt="trophy graph"  />
 </div>
 
 
