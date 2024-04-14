@@ -78,9 +78,6 @@
   <img src="https://skillicons.dev/icons?i=ai" height="40" alt="adobeillustrator logo"  />
 </div>
 
-</br>
-</br>
-
 
 <hr style="height:1px; border-width:0; color:gray; background-color:gray">
 
@@ -92,16 +89,12 @@
   <img src="https://github-readme-stats.vercel.app/api?username=mikalasa&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false&order=1" height="160" alt="stats graph"  />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mikalasa&theme=dark" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mikalasa&radius=16&theme=merko&area=true&order=5" height="245" alt="activity-graph graph"  />
-  
-  </br>
 </div>
 
 
-</br>
 
 <hr style="height:1px; border-width:0; color:gray; background-color:gray">
 
-</br>
 
 <h2 align="center">💻 Pined Repositories 💻</h2>
 
