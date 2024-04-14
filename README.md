@@ -1,20 +1,22 @@
 [![MasterHead](https://mir-s3-cdn-cf.behance.net/project_modules/fs/579fe1183178475.653aa8931b193.gif)](https://mikalasa.github.io/ProfileWeb/)
 
 <h1 align="center">Hi 👋, I'm Xingyi Li</h1>
+<h3 align="center">A passionate frontend developer</h3>
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=stringx&label=Profile%20views&color=0e75b6&style=flat" alt="stringx" />
 </p>
 
-- 🔭 I’m currently working on [xxxxxxxxxxxx](xxxxxxx)
-- 🌱 I’m currently learning **xxxxxxxxxx**
-- 👯 I’m looking to collaborate on [xxxxxxxxxxx](xxxxxxxx)
-- 🤝 I’m looking for help with [xxxxxxxxxxxx](xxxxxxxxxx)
-- 👨‍💻 All of my projects are available at [xxxxxxxxxxxxxxx](xxxxxxxxxxxxxxx)
-- - 📝 I regularly write articles on [xxxxxxxxxxxxxx](xxxxxxxxxxxxxx)
-- 💬 Ask me about **xxxxxxxxxxxxx**
-- 📫 How to reach me **xxxxxxxxxxxxx**
-- 📄 Know about my experiences [xxxxxxxxxxxxx](xxxxxxxxxxxxx)
-- ⚡ Fun fact **xxxxxxxxxxxxxxxx**
+- 🔭 I’m currently working on degree **Master of Software Development**
+- 🔭 I’m currently enhancing my skills through the **Harvard CS50** and **MIT 6.102** open courses.
+- 🌱 I’m passionate about web, front-end, full-stack, and back-end development.
+- 🕹️ Fun fact **I like playing video gaming**
+
+</br>
+
+- 📫 Email: **xxxxxxxxxxxxx**
+- 📄 My profile website: [StringX](https://mikalasa.github.io/ProfileWeb/)
+
+
 
 
 <h4 align="left">📱 Social Links</h4>
@@ -127,6 +129,7 @@
   <br>
 </div>
 
+<img src="https://raw.githubusercontent.com/Mikalasa/Mikalasa/output/snake.svg" alt="Snake animation" />
 
 
 
