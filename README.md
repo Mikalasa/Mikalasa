@@ -128,7 +128,6 @@
   <br>
 </div>
 
-<img src="https://raw.githubusercontent.com/Mikalasa/Mikalasa/output/snake.svg" alt="Snake animation" />
 
 
 
