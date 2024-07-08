@@ -88,23 +88,4 @@
 
 
 
-<hr style="height:1px; border-width:0; color:gray; background-color:gray">
-
-
-<h2 align="center">💻 Pined Repositories 💻</h2>
-
-</br>
-
-<div align="center">
-  <a href="https://github.com/mikalasa/enctryption-and-decryption-webapp" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikalasa&theme=dark&show_owner=false&repo=enctryption-and-decryption-webapp" alt="Readme Card" />
-  </a>
-  <a href="https://github.com/mikalasa/todo-list" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mikalasa&theme=dark&show_owner=false&repo=todo-list" alt="Readme Card" />
-  </a>
-  <br>
-</div>
-
-
-
 
