@@ -13,9 +13,8 @@
 - 📫 Email: **xingyi213@outlook.com**
 - 📄 My profile website: [StringX](https://mikalasa.github.io/ProfileWeb/)
 
-<div align="left">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" />
-</div>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" />
+<br>
 
 <h4 align="left">📱 Social Links</h4>
 <div align="left" style="line-height: 0;">
