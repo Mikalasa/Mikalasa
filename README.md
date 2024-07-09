@@ -13,10 +13,7 @@
 - 📫 Email: **xingyi213@outlook.com**
 - 📄 My profile website: [StringX](https://mikalasa.github.io/ProfileWeb/)
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" />
-<br>
-
-<h4 align="left">📱 Social Links</h4>
+<h3 align="left">📱 Social Links</h3>
 <div align="left" style="line-height: 0;">
   <a href="https://twitter.com/25762wuwutima" target="_blank" style="text-decoration: none;">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="39" height="30" alt="twitter logo" />
