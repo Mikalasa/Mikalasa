@@ -38,7 +38,7 @@
 
 
 <h3 align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdndsaGczemFxYmtidnFmMmpkZnF0ZjkwdzlxNTdkaXl1NWhteGl4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Np6CUodylLuCt3ChOK/giphy.webp" alt="GIF" height="100" />
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamwwNHZkY2UxcXNibDczZzFxdjFwZTNtN3J2aGdqbm9rOGFvdGtjayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g06HKnMmtK1aXurndU/giphy.webp" alt="GIF" height="100" />
 </h3>
 
 #### 💻 IT
@@ -83,9 +83,7 @@
 
 <hr style="height:1px; border-width:0; color:gray; background-color:gray">
 
-<h3 align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamwwNHZkY2UxcXNibDczZzFxdjFwZTNtN3J2aGdqbm9rOGFvdGtjayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g06HKnMmtK1aXurndU/giphy.webp" alt="GIF" height="100" />
-</h3>
+
 </br>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mikalasa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=false&order=2" height="160" alt="languages graph"  />
