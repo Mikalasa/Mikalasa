@@ -17,6 +17,7 @@
 
 
 
+
 <h3 align="left">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW1sdmY5bmdxbWt1NmFyYWlmNW8zZXVqYnJmbWkzZnU2M2pyejNzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fV8KLSSAXharZpHR0a/giphy.webp" alt="GIF" height="100" />
 </h3>
@@ -85,11 +86,14 @@
 <hr style="height:1px; border-width:0; color:gray; background-color:gray">
 
 
+
 </br>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mikalasa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=false&order=2" height="160" alt="languages graph"  />
   <img src="https://github-readme-stats.vercel.app/api?username=mikalasa&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dark&locale=en&hide_border=false&order=1" height="160" alt="stats graph"  />
 </div>
+
+
 
 <img src="https://raw.githubusercontent.com/mikalasa/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
