@@ -72,7 +72,7 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mikalasa&theme=dark" />
 </div>
 
-<img src="https://mikalasa.github.io/snk/github-contribution-grid-snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/mikalasa/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
 
 
