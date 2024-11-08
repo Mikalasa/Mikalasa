@@ -1,14 +1,12 @@
 [![MasterHead](https://mir-s3-cdn-cf.behance.net/project_modules/fs/579fe1183178475.653aa8931b193.gif)](https://mikalasa.github.io/ProfileWeb/)
 
-<div align="center">
+<h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=1000&size=24&pause=1000&color=000000&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Xingyi" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=1000&size=24&pause=1000&color=000000&width=240&lines=Hi+%F0%9F%91%8B%2C+I'm+Xingyi" alt="Typing SVG" />
   </a>
-</div>
+</h1>
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=mikalasa&label=Profile%20views&color=0e75b6&style=flat" alt="mikalasa" />
-</p>
+
 
 - 🔭 I’m currently enhancing my skills through the **Harvard CS50** and **MIT 6.102** open courses.
 - 🌱 I’m passionate about **web**, **front-end**, **back-end**, and **full-stack** development.
@@ -16,12 +14,27 @@
 - 📫 Email: **xingyi213@outlook.com**
 - 📄 My profile website: [StringX](https://mikalasa.github.io/ProfileWeb/)
 
-<h3 align="left">📱 Social Links</h3>
-<div align="left" style="line-height: 0;">
+<h3 align="center">📱 Social Links</h3>
+<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 15px; line-height: 0;">
   <a href="https://www.behance.net/stringx" target="_blank" style="text-decoration: none;">
     <img src="https://img.icons8.com/ios-filled/50/1764FF/behance.png" width="30" height="30" alt="Behance logo" />
   </a>
+  <a href="https://www.youtube.com/" target="_blank" style="text-decoration: none;">
+    <img src="https://img.icons8.com/ios-filled/50/FF0000/youtube-play.png" width="30" height="30" alt="YouTube logo" />
+  </a>
+  <a href="https://space.bilibili.com/" target="_blank" style="text-decoration: none;">
+    <img src="https://img.icons8.com/ios-filled/50/00A1D6/bilibili.png" width="30" height="30" alt="Bilibili logo" />
+  </a>
+  <a href="https://medium.com/" target="_blank" style="text-decoration: none;">
+    <img src="https://img.icons8.com/ios-filled/50/000000/medium-monogram.png" width="30" height="30" alt="Medium logo" />
+  </a>
 </div>
+<p align="center">
+    <img src="https://komarev.com/ghpvc/?username=mikalasa&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+</p>
+
+
+
 
 
 <h3 align="center">
