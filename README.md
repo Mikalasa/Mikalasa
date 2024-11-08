@@ -14,18 +14,21 @@
 - 📫 Email: **xingyi213@outlook.com**
 - 📄 My profile website: [StringX](https://mikalasa.github.io/ProfileWeb/)
 
+
+
+
 <h3 align="center">📱 Social Links</h3>
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 15px; line-height: 0;">
-  <a href="https://www.behance.net/stringx" target="_blank" style="text-decoration: none;">
+  <a href="https://www.behance.net/stringx" target="_blank" style="text-decoration: none !important;">
     <img src="https://img.icons8.com/ios-filled/50/1764FF/behance.png" width="30" height="30" alt="Behance logo" />
   </a>
-  <a href="https://www.youtube.com/" target="_blank" style="text-decoration: none;">
+  <a href="https://www.youtube.com/" target="_blank" style="text-decoration: none !important;">
     <img src="https://img.icons8.com/ios-filled/50/FF0000/youtube-play.png" width="30" height="30" alt="YouTube logo" />
   </a>
-  <a href="https://space.bilibili.com/" target="_blank" style="text-decoration: none;">
+  <a href="https://space.bilibili.com/" target="_blank" style="text-decoration: none !important;">
     <img src="https://img.icons8.com/ios-filled/50/00A1D6/bilibili.png" width="30" height="30" alt="Bilibili logo" />
   </a>
-  <a href="https://medium.com/" target="_blank" style="text-decoration: none;">
+  <a href="https://medium.com/" target="_blank" style="text-decoration: none !important;">
     <img src="https://img.icons8.com/ios-filled/50/000000/medium-monogram.png" width="30" height="30" alt="Medium logo" />
   </a>
 </div>
