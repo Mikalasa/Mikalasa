@@ -21,12 +21,13 @@
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW1sdmY5bmdxbWt1NmFyYWlmNW8zZXVqYnJmbWkzZnU2M2pyejNzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fV8KLSSAXharZpHR0a/giphy.webp" alt="GIF" height="100" />
 </h3>
 
-[![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)]([https://behance.net/sa](https://www.behance.net/stringx)
+[![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://www.behance.net/stringx) 
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/1212321) 
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@123345) 
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/asdsad) 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@1237554) 
 [![Bilibili](https://img.shields.io/badge/Bilibili-00A1D6?logo=bilibili&logoColor=white)](https://space.bilibili.com/123456)
+
 
 
 <p align="left">
