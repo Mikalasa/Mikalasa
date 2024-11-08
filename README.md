@@ -72,6 +72,8 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mikalasa&theme=dark" />
 </div>
 
+<img src="https://raw.githubusercontent.com/Mikalasa /snk/output/snake.svg" alt="Snake animation" />
+
 
 
 
