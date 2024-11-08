@@ -20,7 +20,9 @@
 </div>
 
 
-<h2 align="center">🔥 Skills 🔥</h2>
+<h3 align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdndsaGczemFxYmtidnFmMmpkZnF0ZjkwdzlxNTdkaXl1NWhteGl4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Np6CUodylLuCt3ChOK/giphy.webp" alt="GIF" height="100" />
+</h3>
 
 #### 💻 IT
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
@@ -64,12 +66,13 @@
 
 <hr style="height:1px; border-width:0; color:gray; background-color:gray">
 
-<h2 align="center">⚡️ Status ⚡️</h2>
+<h3 align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamwwNHZkY2UxcXNibDczZzFxdjFwZTNtN3J2aGdqbm9rOGFvdGtjayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g06HKnMmtK1aXurndU/giphy.webp" alt="GIF" height="100" />
+</h3>
 </br>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mikalasa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=false&order=2" height="160" alt="languages graph"  />
-  <img src="https://github-readme-stats.vercel.app/api?username=mikalasa&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=false&disable_animations=false&theme=dark&locale=en&hide_border=false&order=1" height="160" alt="stats graph"  />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mikalasa&theme=dark" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mikalasa&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dark&locale=en&hide_border=false&order=1" height="160" alt="stats graph"  />
 </div>
 
 <img src="https://raw.githubusercontent.com/mikalasa/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
