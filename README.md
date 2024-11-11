@@ -2,22 +2,17 @@
 [![MasterHead](https://mir-s3-cdn-cf.behance.net/project_modules/fs/579fe1183178475.653aa8931b193.gif)](https://mikalasa.github.io/ProfileWeb/)
 -->
 
-
 <h1 align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=1000&size=24&pause=1000&color=000000&width=240&lines=Hi+%F0%9F%91%8B%2C+I'm+Xingyi" alt="Typing SVG" />
   </a>
 </h1>
 
-
-
 - 🔭 I’m currently enhancing my skills through the **Harvard CS50** and **MIT 6.102** open courses.
 - 🌱 I’m passionate about **web**, **front-end**, **back-end**, and **full-stack** development.
 - 🕹️ Fun fact **I ❤️ video gaming**
 - 📫 Email: **xingyi213@outlook.com**
 - 📄 My profile website: [StringX](https://mikalasa.github.io/ProfileWeb/)
-
-
 
 
 <div align="center">
@@ -31,13 +26,9 @@
 </div>
 
 
-
 <p align="center">
     <img src="https://komarev.com/ghpvc/?username=mikalasa&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </p>
-
-
-
 
 
 <h3 align="center">
@@ -83,13 +74,13 @@
 ![Cinema 4D](https://img.shields.io/badge/Cinema%204D-011A6A?style=for-the-badge&logo=cinema4d&logoColor=white)
 
 
-
 <hr style="height:1px; border-width:0; color:gray; background-color:gray">
-
-
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mikalasa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=light&hide_border=false&order=2" height="160" alt="languages graph"  />
   <img src="https://github-readme-stats.vercel.app/api?username=mikalasa&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=light&locale=en&hide_border=false&order=1" height="160" alt="stats graph"  />
 </div>
+
+
+<img src="https://raw.githubusercontent.com/mikalasa/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
