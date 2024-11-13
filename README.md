@@ -8,7 +8,6 @@
   </a>
 </h1>
 
-- 🔭 I’m currently enhancing my skills through the **Harvard CS50** and **MIT 6.102** open courses.
 - 🌱 I’m passionate about **web**, **front-end**, **back-end**, and **full-stack** development.
 - 🕹️ Fun fact **I ❤️ video gaming**
 - 📫 Email: **xingyi213@outlook.com**
