@@ -57,12 +57,14 @@ jobs:
         run: |
           cd profile_repo
           awk '
-            /<!-- BLOG-POST-LIST:START -->/ { print; system("cat ../articles_list.md"); next }
-            /<!-- BLOG-POST-LIST:END -->/ { skip=0 }
-            !skip { print }
+            BEGIN { inside=0 }
+            /<!-- BLOG-POST-LIST:START -->/ { print; inside=1; system("cat ../articles_list.md"); next }
+            /<!-- BLOG-POST-LIST:END -->/ { inside=0 }
+            !inside { print }
           ' README.md > README.tmp && mv README.tmp README.md
           echo "Updated README.md content:"
           cat README.md
+
 
       # 5. 提交更改
       - name: Commit and push changes
