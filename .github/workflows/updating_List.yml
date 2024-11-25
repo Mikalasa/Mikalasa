@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 安装必要工具
+      # 1. 安装 XML 工具并解析 RSS
       - name: Install XML utilities
         run: |
           sudo apt-get update
@@ -49,11 +49,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: profile_repo
 
-      # 4. 更新 README 文件
+      # 4. 使用 awk 替换 README 文件中的内容
       - name: Update README
         run: |
           cd profile_repo
-          sed -i '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/c\<!-- BLOG-POST-LIST:START -->\n'"$(cat ../articles_list.md)"'\n<!-- BLOG-POST-LIST:END -->' README.md
+          awk '
+            /<!-- BLOG-POST-LIST:START -->/ { print; system("cat ../articles_list.md"); next }
+            /<!-- BLOG-POST-LIST:END -->/ { skip=0 }
+            !skip { print }
+          ' README.md > README.tmp && mv README.tmp README.md
           echo "Updated README.md content:"
           cat README.md
 
