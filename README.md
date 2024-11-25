@@ -37,6 +37,8 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 - [CSS Position Deep Dive](https://mikalasa.github.io/my-blog/posts/2024-11-12-css-position-tips/) - 2024-11-12
 <!-- BLOG-POST-LIST:END -->
 
+
+
 <!-- Skills -->
 <div align="center">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamwwNHZkY2UxcXNibDczZzFxdjFwZTNtN3J2aGdqbm9rOGFvdGtjayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g06HKnMmtK1aXurndU/giphy.webp" alt="GIF" height="100" />
