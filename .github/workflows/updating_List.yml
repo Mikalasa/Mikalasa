@@ -15,7 +15,7 @@ jobs:
         run: |
           echo "Installing feedparser and fetching RSS feed..."
           pip install feedparser
-          echo "
+          python3 - <<EOF
 import feedparser
 
 # RSS 源地址
@@ -33,8 +33,7 @@ for entry in feed.entries[:5]:  # 获取前 5 篇文章
 # 将文章列表写入文件
 with open('articles_list.md', 'w') as f:
     f.write(articles)
-" > script.py
-          python3 script.py
+EOF
           echo "Generated articles_list.md:"
           cat articles_list.md
 
