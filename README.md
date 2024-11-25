@@ -61,7 +61,7 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-#### 🎨 Design
+### 🎨 Design
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Adobe Suite](https://img.shields.io/badge/Adobe%20Suite-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white)
 ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
