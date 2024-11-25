@@ -1,8 +1,8 @@
 name: Update Profile README with Blog Posts
 
 on:
-  schedule: # 定时触发
-    - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 0 * * *" # 定时触发
   workflow_dispatch: # 手动触发
 
 jobs:
@@ -13,6 +13,7 @@ jobs:
       # 1. 安装 Python 依赖并解析 RSS
       - name: Fetch and parse RSS feed
         run: |
+          echo "Installing feedparser and fetching RSS feed..."
           pip install feedparser
           python3 <<EOF
 import feedparser
@@ -33,8 +34,7 @@ EOF
           echo "Generated articles_list.md:"
           cat articles_list.md
 
-
-      # 2. Checkout Profile 仓库
+      # 2. 检出 Profile 仓库
       - name: Checkout profile repository
         uses: actions/checkout@v3
         with:
