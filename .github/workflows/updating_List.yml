@@ -1,31 +1,24 @@
 name: Update Profile README with Blog Posts
 
 on:
-  schedule:
+  schedule: # 定时触发（每天运行一次）
     - cron: "0 0 * * *"
-  workflow_dispatch:
+  workflow_dispatch: # 支持手动触发
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 从博客页面抓取最新文章
-      - name: Fetch latest blog posts
+      # 1. 下载并解析 RSS
+      - name: Fetch and parse RSS feed
         run: |
-          echo "Fetching blog posts from https://mikalasa.github.io/my-blog/"
-          curl -s https://mikalasa.github.io/my-blog/ > blog_home.html
+          echo "Fetching RSS feed from https://mikalasa.github.io/my-blog/rss.xml"
+          curl -s https://mikalasa.github.io/my-blog/rss.xml > rss.xml
 
           echo "## 📚 最新博客文章" > articles_list.md
-          grep -oP '<a href="[^"]*" class="transition font-bold active:text-[^>]+>.*?</a>' blog_home.html | head -n 5 | while read -r link_line; do
-            link=$(echo "$link_line" | grep -oP '(?<=<a href=")[^"]*')
-            title=$(echo "$link_line" | grep -oP '(?<=class="transition font-bold active:text-[^>]+>).*(?=</a>)')
-            description=$(grep -A 5 "$link_line" blog_home.html | grep -oP '(?<=<div class="transition line-clamp-2 .*?>).*?(?=</div>)' | head -n 1)
-            date=$(grep -A 10 "$link_line" blog_home.html | grep -oP '\d{4}-\d{2}-\d{2}' | head -n 1)
-            full_link="https://mikalasa.github.io/my-blog$link"
-            echo "- [$title]($full_link) - $date" >> articles_list.md
-            echo "  - $description" >> articles_list.md
-          done
+          xmlstarlet sel -t -m "//item[position() <= 5]" \
+            -v "concat('- [',title,'](',link,') - ',pubDate)" -n rss.xml >> articles_list.md
 
           echo "Generated articles_list.md:"
           cat articles_list.md
@@ -42,20 +35,7 @@ jobs:
       - name: Update README
         run: |
           cd profile_repo
-          python3 -c "
-import re
-with open('README.md', 'r') as file:
-    content = file.read()
-new_content = re.sub(
-    r'<!-- BLOG-POST-LIST:START -->.*?<!-- BLOG-POST-LIST:END -->',
-    '<!-- BLOG-POST-LIST:START -->\\n' + open('../articles_list.md').read() + '\\n<!-- BLOG-POST-LIST:END -->',
-    content,
-    flags=re.DOTALL
-)
-with open('README.md', 'w') as file:
-    file.write(new_content)
-"
-          cat README.md
+          sed -i '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/c\<!-- BLOG-POST-LIST:START -->\n'"$(cat ../articles_list.md)"'\n<!-- BLOG-POST-LIST:END -->' README.md
 
       # 4. 提交更改
       - name: Commit and push changes
