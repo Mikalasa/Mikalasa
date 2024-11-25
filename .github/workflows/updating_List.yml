@@ -22,7 +22,7 @@ jobs:
           echo "Fetching RSS feed from https://mikalasa.github.io/my-blog/rss.xml"
           curl -s https://mikalasa.github.io/my-blog/rss.xml > rss.xml
 
-          echo "## 📚 最新博客文章" > articles_list.md
+          echo "## 📚 Latest Blog Posts" > articles_list.md
           xmllint --xpath "//item[position() <= 5]" rss.xml | \
           xmllint --format - | \
           while IFS= read -r line; do
@@ -34,12 +34,15 @@ jobs:
             fi
             if [[ $line =~ \<pubDate\>(.*)\<\/pubDate\> ]]; then
               pub_date=${BASH_REMATCH[1]}
-              echo "- [$title]($link) - $pub_date" >> articles_list.md
+              # 格式化日期，只保留 年-月-日
+              formatted_date=$(date -d "$pub_date" +"%Y-%m-%d")
+              echo "- [$title]($link) - $formatted_date" >> articles_list.md
             fi
           done
 
           echo "Generated articles_list.md:"
           cat articles_list.md
+
 
       # 3. 检出 Profile 仓库
       - name: Checkout profile repository
