@@ -31,17 +31,20 @@ jobs:
             fi
             if [[ $line =~ \<link\>(.*)\<\/link\> ]]; then
               link=${BASH_REMATCH[1]}
+              # 修正链接，增加 /my-blog/ 前缀
+              full_link=$(echo "$link" | sed 's|https://mikalasa.github.io/posts/|https://mikalasa.github.io/my-blog/posts/|')
             fi
             if [[ $line =~ \<pubDate\>(.*)\<\/pubDate\> ]]; then
               pub_date=${BASH_REMATCH[1]}
               # 格式化日期，只保留 年-月-日
               formatted_date=$(date -d "$pub_date" +"%Y-%m-%d")
-              echo "- [$title]($link) - $formatted_date" >> articles_list.md
+              echo "- [$title]($full_link) - $formatted_date" >> articles_list.md
             fi
           done
 
           echo "Generated articles_list.md:"
           cat articles_list.md
+
 
 
       # 3. 检出 Profile 仓库
