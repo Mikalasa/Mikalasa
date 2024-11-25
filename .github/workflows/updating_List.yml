@@ -10,34 +10,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 安装 Python 依赖并解析 RSS
+      # 1. 安装必要工具
+      - name: Install XML utilities
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils
+
+      # 2. 获取并解析 RSS
       - name: Fetch and parse RSS feed
         run: |
-          echo "Installing feedparser and fetching RSS feed..."
-          pip install feedparser
-          python3 - <<EOF
-import feedparser
+          echo "Fetching RSS feed from https://mikalasa.github.io/my-blog/rss.xml"
+          curl -s https://mikalasa.github.io/my-blog/rss.xml > rss.xml
 
-# RSS 源地址
-rss_url = 'https://mikalasa.github.io/my-blog/rss.xml'
-feed = feedparser.parse(rss_url)
+          echo "## 📚 最新博客文章" > articles_list.md
+          xmllint --xpath "//item[position() <= 5]" rss.xml | \
+          xmllint --format - | \
+          while IFS= read -r line; do
+            if [[ $line =~ \<title\>(.*)\<\/title\> ]]; then
+              title=${BASH_REMATCH[1]}
+            fi
+            if [[ $line =~ \<link\>(.*)\<\/link\> ]]; then
+              link=${BASH_REMATCH[1]}
+            fi
+            if [[ $line =~ \<pubDate\>(.*)\<\/pubDate\> ]]; then
+              pub_date=${BASH_REMATCH[1]}
+              echo "- [$title]($link) - $pub_date" >> articles_list.md
+            fi
+          done
 
-# 构建 Markdown 格式的文章列表
-articles = '## 📚 最新博客文章\n'
-for entry in feed.entries[:5]:  # 获取前 5 篇文章
-    title = entry.title
-    link = entry.link
-    pub_date = entry.published  # 发布时间
-    articles += f'- [{title}]({link}) - {pub_date}\n'
-
-# 将文章列表写入文件
-with open('articles_list.md', 'w') as f:
-    f.write(articles)
-EOF
           echo "Generated articles_list.md:"
           cat articles_list.md
 
-      # 2. 检出 Profile 仓库
+      # 3. 检出 Profile 仓库
       - name: Checkout profile repository
         uses: actions/checkout@v3
         with:
@@ -45,7 +49,7 @@ EOF
           token: ${{ secrets.GITHUB_TOKEN }}
           path: profile_repo
 
-      # 3. 更新 README 文件
+      # 4. 更新 README 文件
       - name: Update README
         run: |
           cd profile_repo
@@ -53,7 +57,7 @@ EOF
           echo "Updated README.md content:"
           cat README.md
 
-      # 4. 提交更改
+      # 5. 提交更改
       - name: Commit and push changes
         run: |
           cd profile_repo
