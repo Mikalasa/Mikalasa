@@ -1,0 +1,55 @@
+name: Update Profile README with Blog Posts
+
+on:
+  schedule: # 定时触发（每天运行一次）
+    - cron: "0 0 * * *"
+  workflow_dispatch: # 手动触发
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 从博客页面抓取最新文章
+      - name: Fetch latest blog posts
+        run: |
+          echo "## 📚 最新博客文章" > articles_list.md
+          # 使用 curl 获取博客页面 HTML
+          curl -s https://mikalasa.github.io/my-blog/ > blog_home.html
+
+          # 提取文章卡片的链接、标题和日期
+          grep -oP '<a href="[^"]*" class="post-link">[^<]*</a>' blog_home.html | head -n 5 | while read -r line; do
+            # 提取文章链接
+            link=$(echo "$line" | grep -oP '(?<=<a href=")[^"]*')
+            # 提取文章标题
+            title=$(echo "$line" | grep -oP '(?<=class="post-link">)[^<]*')
+            # 提取文章日期（假设日期是 <time> 标签）
+            date=$(grep -A 5 "$line" blog_home.html | grep -oP '(?<=<time>)[^<]*')
+            full_link="https://mikalasa.github.io/my-blog$link"
+            echo "- [$title]($full_link) - $date" >> articles_list.md
+          done
+
+      # 2. Checkout Profile 仓库
+      - name: Checkout profile repository
+        uses: actions/checkout@v3
+        with:
+          repository: Mikalasa/Mikalasa
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: profile_repo
+
+      # 3. 更新 README 文件
+      - name: Update README
+        run: |
+          cd profile_repo
+          sed -i '/## 📚 最新博客文章/,$d' README.md # 删除旧的文章列表
+          cat ../articles_list.md >> README.md # 插入新的文章列表
+
+      # 4. 提交更改
+      - name: Commit and push changes
+        run: |
+          cd profile_repo
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update articles list in README"
+          git push origin main
