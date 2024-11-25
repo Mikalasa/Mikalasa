@@ -17,21 +17,18 @@ jobs:
           curl -s https://mikalasa.github.io/my-blog/ > blog_home.html
 
           echo "## 📚 最新博客文章" > articles_list.md
-          # 提取文章链接和标题
           grep -oP '<a href="[^"]*" class="transition font-bold active:text-[^>]+>.*?</a>' blog_home.html | head -n 5 | while read -r link_line; do
-            # 调试输出
-            echo "Processing: $link_line"
-
-            # 提取链接
             link=$(echo "$link_line" | grep -oP '(?<=<a href=")[^"]*')
             title=$(echo "$link_line" | grep -oP '(?<=class="transition font-bold active:text-[^>]+>).*(?=</a>)')
             description=$(grep -A 5 "$link_line" blog_home.html | grep -oP '(?<=<div class="transition line-clamp-2 .*?>).*?(?=</div>)' | head -n 1)
             date=$(grep -A 10 "$link_line" blog_home.html | grep -oP '\d{4}-\d{2}-\d{2}' | head -n 1)
-
             full_link="https://mikalasa.github.io/my-blog$link"
             echo "- [$title]($full_link) - $date" >> articles_list.md
             echo "  - $description" >> articles_list.md
           done
+
+          echo "Generated articles_list.md:"
+          cat articles_list.md
 
       # 2. Checkout Profile 仓库
       - name: Checkout profile repository
@@ -45,7 +42,20 @@ jobs:
       - name: Update README
         run: |
           cd profile_repo
-          sed -i '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/c\<!-- BLOG-POST-LIST:START -->\n'"$(cat ../articles_list.md)"'\n<!-- BLOG-POST-LIST:END -->' README.md
+          python3 -c "
+import re
+with open('README.md', 'r') as file:
+    content = file.read()
+new_content = re.sub(
+    r'<!-- BLOG-POST-LIST:START -->.*?<!-- BLOG-POST-LIST:END -->',
+    '<!-- BLOG-POST-LIST:START -->\\n' + open('../articles_list.md').read() + '\\n<!-- BLOG-POST-LIST:END -->',
+    content,
+    flags=re.DOTALL
+)
+with open('README.md', 'w') as file:
+    file.write(new_content)
+"
+          cat README.md
 
       # 4. 提交更改
       - name: Commit and push changes
