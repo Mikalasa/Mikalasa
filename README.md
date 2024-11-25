@@ -33,6 +33,8 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 <hr style="height:1px; border-width:0; color:gray; background-color:gray">
 
 <!-- BLOG-POST-LIST:START -->
+## 📚 Latest Blog Posts
+- [CSS Position Deep Dive](https://mikalasa.github.io/posts/2024-11-12-css-position-tips/) - 2024-11-12
 ## 📚 最新博客文章
 - [CSS Position Deep Dive](https://mikalasa.github.io/posts/2024-11-12-css-position-tips/) - Tue, 12 Nov 2024 00:00:00 GMT
 <!-- BLOG-POST-LIST:END -->
