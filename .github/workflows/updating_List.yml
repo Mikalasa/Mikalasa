@@ -1,25 +1,35 @@
 name: Update Profile README with Blog Posts
 
 on:
-  schedule: # 定时触发（每天运行一次）
+  schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch: # 支持手动触发
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 下载并解析 RSS
+      # 1. 安装 Python 依赖并解析 RSS
       - name: Fetch and parse RSS feed
         run: |
-          echo "Fetching RSS feed from https://mikalasa.github.io/my-blog/rss.xml"
-          curl -s https://mikalasa.github.io/my-blog/rss.xml > rss.xml
+          pip install feedparser
+          python3 -c "
+import feedparser
 
-          echo "## 📚 最新博客文章" > articles_list.md
-          xmlstarlet sel -t -m "//item[position() <= 5]" \
-            -v "concat('- [',title,'](',link,') - ',pubDate)" -n rss.xml >> articles_list.md
+rss_url = 'https://mikalasa.github.io/my-blog/rss.xml'
+feed = feedparser.parse(rss_url)
 
+articles = '## 📚 最新博客文章\\n'
+for entry in feed.entries[:5]:  # 获取前 5 篇文章
+    title = entry.title
+    link = entry.link
+    pub_date = entry.published  # 发布时间
+    articles += f'- [{title}]({link}) - {pub_date}\\n'
+
+with open('articles_list.md', 'w') as f:
+    f.write(articles)
+"
           echo "Generated articles_list.md:"
           cat articles_list.md
 
