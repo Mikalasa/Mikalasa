@@ -19,7 +19,7 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 
 
 <!-- Following -->
-<div align="center">
+<div align="left">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW1sdmY5bmdxbWt1NmFyYWlmNW8zZXVqYnJmbWkzZnU2M2pyejNzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fV8KLSSAXharZpHR0a/giphy.webp" alt="GIF" height="100" />
   
   [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://www.behance.net/stringx)
