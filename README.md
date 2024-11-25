@@ -2,6 +2,7 @@
 [![MasterHead](https://mir-s3-cdn-cf.behance.net/project_modules/fs/579fe1183178475.653aa8931b193.gif)](https://mikalasa.github.io/ProfileWeb/)
 -->
 
+<!-- Profile -->
 <h1 align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=1000&size=24&pause=1000&color=000000&width=240&lines=Hi+%F0%9F%91%8B%2C+I'm+Xingyi" alt="Typing SVG" />
@@ -17,7 +18,7 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 📧 Feel free to contact me: xingyi213@outlook.com  
 
 
-
+<!-- Following -->
 <div align="center">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW1sdmY5bmdxbWt1NmFyYWlmNW8zZXVqYnJmbWkzZnU2M2pyejNzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fV8KLSSAXharZpHR0a/giphy.webp" alt="GIF" height="100" />
   
@@ -31,12 +32,12 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 
 <hr style="height:1px; border-width:0; color:gray; background-color:gray">
 
-<h3 align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamwwNHZkY2UxcXNibDczZzFxdjFwZTNtN3J2aGdqbm9rOGFvdGtjayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g06HKnMmtK1aXurndU/giphy.webp" alt="GIF" height="100" />
-</h3>
-
 
 <!-- Skills -->
+<div align="center">
+  <h2>✨ Skills ✨</h2>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamwwNHZkY2UxcXNibDczZzFxdjFwZTNtN3J2aGdqbm9rOGFvdGtjayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g06HKnMmtK1aXurndU/giphy.webp" alt="GIF" height="100" />
+</div>
 
 ### 🖥️ Languages
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
