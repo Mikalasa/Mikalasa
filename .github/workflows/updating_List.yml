@@ -33,7 +33,6 @@ with open('articles_list.md', 'w') as f:
           echo "Generated articles_list.md:"
           cat articles_list.md
 
-      # 2. Checkout Profile 仓库
       - name: Checkout profile repository
         uses: actions/checkout@v3
         with:
