@@ -17,12 +17,24 @@ jobs:
           curl -s https://mikalasa.github.io/my-blog/ > blog_home.html
 
           echo "## 📚 最新博客文章" > articles_list.md
-          # 提取文章链接和标题（调整正则表达式适应你的页面结构）
-          grep -oP '<a href="[^"]*" class="post-link">[^<]*</a>' blog_home.html | head -n 5 | while read -r line; do
-            link=$(echo "$line" | grep -oP '(?<=<a href=")[^"]*') # 提取链接
-            title=$(echo "$line" | grep -oP '(?<=class="post-link">)[^<]*') # 提取标题
+          # 提取卡片内容
+          grep -oP '<a href="[^"]*" class="transition font-bold active:text-[^>]+>.*?</a>' blog_home.html | head -n 5 | while read -r link_line; do
+            # 提取链接和标题
+            link=$(echo "$link_line" | grep -oP '(?<=<a href=")[^"]*')
+            title=$(echo "$link_line" | grep -oP '(?<=class="transition font-bold active:text-[^>]+>).*(?=</a>)')
+
+            # 提取摘要
+            description=$(grep -A 5 "$link_line" blog_home.html | grep -oP '(?<=<div class="transition line-clamp-2 .*?>).*?(?=</div>)' | head -n 1)
+
+            # 提取发布日期
+            date=$(grep -A 10 "$link_line" blog_home.html | grep -oP '\d{4}-\d{2}-\d{2}' | head -n 1)
+
+            # 构建完整链接
             full_link="https://mikalasa.github.io/my-blog$link"
-            echo "- [$title]($full_link)" >> articles_list.md
+
+            # 写入 Markdown 格式
+            echo "- [$title]($full_link) - $date" >> articles_list.md
+            echo "  - $description" >> articles_list.md
           done
 
       # 2. Checkout Profile 仓库
