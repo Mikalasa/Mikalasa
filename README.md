@@ -34,7 +34,7 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 
 <!-- BLOG-POST-LIST:START -->
 ## 📚 Latest Blog Posts
-- [CSS Position Deep Dive](https://mikalasa.github.io/posts/2024-11-12-css-position-tips/) - 2024-11-12
+- [CSS Position Deep Dive](https://mikalasa.github.io/my-blog/posts/2024-11-12-css-position-tips/) - 2024-11-12
 <!-- BLOG-POST-LIST:END -->
 
 <!-- Skills -->
