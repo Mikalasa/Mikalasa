@@ -35,7 +35,6 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 
 <!-- Skills -->
 <div align="center">
-  <h2>✨ Skills ✨</h2>
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamwwNHZkY2UxcXNibDczZzFxdjFwZTNtN3J2aGdqbm9rOGFvdGtjayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g06HKnMmtK1aXurndU/giphy.webp" alt="GIF" height="100" />
 </div>
 
