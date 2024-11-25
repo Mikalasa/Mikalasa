@@ -2,7 +2,7 @@ name: Update Profile README with Blog Posts
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 定时触发（每天运行一次）
+    - cron: "0 0 * * *" # 每天定时触发
   workflow_dispatch: # 手动触发
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
         run: |
           echo "Installing feedparser and fetching RSS feed..."
           pip install feedparser
-          python3 <<EOF
+          echo "
 import feedparser
 
 # RSS 源地址
@@ -24,7 +24,7 @@ feed = feedparser.parse(rss_url)
 
 # 构建 Markdown 格式的文章列表
 articles = '## 📚 最新博客文章\n'
-for entry in feed.entries[:5]:  # 只获取前 5 篇文章
+for entry in feed.entries[:5]:  # 获取前 5 篇文章
     title = entry.title
     link = entry.link
     pub_date = entry.published  # 发布时间
@@ -33,7 +33,8 @@ for entry in feed.entries[:5]:  # 只获取前 5 篇文章
 # 将文章列表写入文件
 with open('articles_list.md', 'w') as f:
     f.write(articles)
-EOF
+" > script.py
+          python3 script.py
           echo "Generated articles_list.md:"
           cat articles_list.md
 
