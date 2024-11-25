@@ -1,9 +1,9 @@
 name: Update Profile README with Blog Posts
 
 on:
-  schedule: # 定时触发（每天运行一次）
+  schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch: # 手动触发
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -17,22 +17,18 @@ jobs:
           curl -s https://mikalasa.github.io/my-blog/ > blog_home.html
 
           echo "## 📚 最新博客文章" > articles_list.md
-          # 提取卡片内容
+          # 提取文章链接和标题
           grep -oP '<a href="[^"]*" class="transition font-bold active:text-[^>]+>.*?</a>' blog_home.html | head -n 5 | while read -r link_line; do
-            # 提取链接和标题
+            # 调试输出
+            echo "Processing: $link_line"
+
+            # 提取链接
             link=$(echo "$link_line" | grep -oP '(?<=<a href=")[^"]*')
             title=$(echo "$link_line" | grep -oP '(?<=class="transition font-bold active:text-[^>]+>).*(?=</a>)')
-
-            # 提取摘要
             description=$(grep -A 5 "$link_line" blog_home.html | grep -oP '(?<=<div class="transition line-clamp-2 .*?>).*?(?=</div>)' | head -n 1)
-
-            # 提取发布日期
             date=$(grep -A 10 "$link_line" blog_home.html | grep -oP '\d{4}-\d{2}-\d{2}' | head -n 1)
 
-            # 构建完整链接
             full_link="https://mikalasa.github.io/my-blog$link"
-
-            # 写入 Markdown 格式
             echo "- [$title]($full_link) - $date" >> articles_list.md
             echo "  - $description" >> articles_list.md
           done
@@ -49,7 +45,6 @@ jobs:
       - name: Update README
         run: |
           cd profile_repo
-          # 替换 <!-- BLOG-POST-LIST:START --> 和 <!-- BLOG-POST-LIST:END --> 之间的内容
           sed -i '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/c\<!-- BLOG-POST-LIST:START -->\n'"$(cat ../articles_list.md)"'\n<!-- BLOG-POST-LIST:END -->' README.md
 
       # 4. 提交更改
@@ -59,5 +54,5 @@ jobs:
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
           git add README.md
-          git commit -m "Update articles list in README"
-          git push origin main
+          git commit -m "Update articles list in README" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
