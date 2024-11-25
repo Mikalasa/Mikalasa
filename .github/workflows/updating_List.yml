@@ -14,24 +14,25 @@ jobs:
       - name: Fetch and parse RSS feed
         run: |
           pip install feedparser
-          python3 -c "
+          python3 <<EOF
 import feedparser
 
 rss_url = 'https://mikalasa.github.io/my-blog/rss.xml'
 feed = feedparser.parse(rss_url)
 
-articles = '## 📚 最新博客文章\\n'
+articles = '## 📚 最新博客文章\n'
 for entry in feed.entries[:5]:  # 获取前 5 篇文章
     title = entry.title
     link = entry.link
     pub_date = entry.published  # 发布时间
-    articles += f'- [{title}]({link}) - {pub_date}\\n'
+    articles += f'- [{title}]({link}) - {pub_date}\n'
 
 with open('articles_list.md', 'w') as f:
     f.write(articles)
-"
+EOF
           echo "Generated articles_list.md:"
           cat articles_list.md
+
 
       # 2. Checkout Profile 仓库
       - name: Checkout profile repository
