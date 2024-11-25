@@ -2,7 +2,7 @@ name: Update Profile README with Blog Posts
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 定时触发
+    - cron: "0 0 * * *" # 定时触发（每天运行一次）
   workflow_dispatch: # 手动触发
 
 jobs:
@@ -18,16 +18,19 @@ jobs:
           python3 <<EOF
 import feedparser
 
+# RSS 源地址
 rss_url = 'https://mikalasa.github.io/my-blog/rss.xml'
 feed = feedparser.parse(rss_url)
 
+# 构建 Markdown 格式的文章列表
 articles = '## 📚 最新博客文章\n'
-for entry in feed.entries[:5]:  # 获取前 5 篇文章
+for entry in feed.entries[:5]:  # 只获取前 5 篇文章
     title = entry.title
     link = entry.link
     pub_date = entry.published  # 发布时间
     articles += f'- [{title}]({link}) - {pub_date}\n'
 
+# 将文章列表写入文件
 with open('articles_list.md', 'w') as f:
     f.write(articles)
 EOF
@@ -47,6 +50,8 @@ EOF
         run: |
           cd profile_repo
           sed -i '/<!-- BLOG-POST-LIST:START -->/,/<!-- BLOG-POST-LIST:END -->/c\<!-- BLOG-POST-LIST:START -->\n'"$(cat ../articles_list.md)"'\n<!-- BLOG-POST-LIST:END -->' README.md
+          echo "Updated README.md content:"
+          cat README.md
 
       # 4. 提交更改
       - name: Commit and push changes
