@@ -8,10 +8,14 @@
   </a>
 </h1>
 
-- 🌱 I’m passionate about **web**, **front-end**, **back-end**, and **full-stack** development.
-- 🕹️ Fun fact **I ❤️ video gaming**
-- 📫 Email: **xingyi213@outlook.com**
-- 📄 My profile website: [StringX](https://mikalasa.github.io/ProfileWeb/)
+## Welcome to My GitHub Page!
+
+I’m a tech enthusiast who loves exploring programming and staying updated with the latest technology trends. I’m passionate about creating user-centric products that combine aesthetics with functionality.
+
+🌐 **Visit my personal website**: [https://mikalasa.github.io/ProfileWeb](https://mikalasa.github.io/ProfileWeb)  
+✍️ **Check out my personal blog**: [https://mikalasa.github.io/my-blog](https://mikalasa.github.io/my-blog)  
+📧 **Feel free to contact me**: xingyi213@outlook.com  
+
 
 
 <div align="center">
