@@ -32,9 +32,11 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 
 <hr style="height:1px; border-width:0; color:gray; background-color:gray">
 
+<!--
 <div align="center">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamwwNHZkY2UxcXNibDczZzFxdjFwZTNtN3J2aGdqbm9rOGFvdGtjayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g06HKnMmtK1aXurndU/giphy.webp" alt="GIF" height="100" />
 </div>
+-->
 
 <!-- BLOG-POST-LIST:START -->
 ## 📚 Latest Blog Posts
@@ -74,7 +76,7 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 #### 🎨 Design
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="30px" title="Figma" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" width="30px" title="Photoshop" />
+  <img src="https://cdn-icons-png.flaticon.com/128/888/888835.png" width="30px" title="Adobe" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" width="30px" title="Blender" />
   <img src="https://img.icons8.com/color/48/cinema-4d.png" width="30px" title="Cinema 4D" />
 </p>
