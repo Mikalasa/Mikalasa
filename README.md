@@ -13,8 +13,6 @@
 
 I’m a tech enthusiast who loves exploring programming and staying updated with the latest technology trends. I’m passionate about creating user-centric products that combine aesthetics with functionality.
 
-📧 Feel free to contact me: xingyi213@outlook.com  
-
 
 <!-- Following -->
 <div align="left">
