@@ -18,10 +18,11 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 <div align="left">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW1sdmY5bmdxbWt1NmFyYWlmNW8zZXVqYnJmbWkzZnU2M2pyejNzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fV8KLSSAXharZpHR0a/giphy.webp" alt="GIF" height="100" />
   
-  [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://www.behance.net/stringx)
-  [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@xingyi-posts)
   [![Profile Website](https://img.shields.io/badge/Profile%20Web-0055FF?style=flat-square&logo=github&logoColor=white)](https://mikalasa.github.io/ProfileWeb)
   [![My Blog](https://img.shields.io/badge/My%20Blog-FF5722?style=flat-square&logo=blogger&logoColor=white)](https://mikalasa.github.io/my-blog)
+  [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@xingyi-posts)
+  [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://www.behance.net/stringx)
+
     <!--
   [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com)
   [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com)
