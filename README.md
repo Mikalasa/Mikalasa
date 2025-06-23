@@ -5,9 +5,15 @@
 <!-- Profile -->
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=1000&size=24&pause=1000&color=000000&width=240&lines=Hi+%F0%9F%91%8B%2C+I'm+Xingyi" alt="Typing SVG" />
+    <picture>
+      <!-- Dark mode version -->
+      <source srcset="https://readme-typing-svg.demolab.com?font=Roboto&weight=1000&size=24&pause=1000&color=FFFFFF&width=240&lines=Hi+%F0%9F%91%8B%2C+I'm+Xingyi" media="(prefers-color-scheme: dark)" />
+      <!-- Light mode version -->
+      <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=1000&size=24&pause=1000&color=000000&width=240&lines=Hi+%F0%9F%91%8B%2C+I'm+Xingyi" alt="Typing SVG" />
+    </picture>
   </a>
 </h1>
+
 
 ## Welcome to My GitHub Page!
 
