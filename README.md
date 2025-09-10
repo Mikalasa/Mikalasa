@@ -26,7 +26,7 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
   
   [![Profile Website](https://img.shields.io/badge/Profile%20Web-0055FF?style=flat-square&logo=github&logoColor=white)](https://mikalasa.github.io/ProfileWeb)
   [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@xingyi-posts)
-  [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://www.behance.net/stringx)
+  [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://www.behance.net/xingyixxx)
 
   <!--
   [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com)
