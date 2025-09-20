@@ -60,7 +60,7 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="30px" title="CSS3" />
 </p>
 
-#### ⚙️ Tech Stacks & Tools
+#### ⚙️ Tech Stacks
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30px" title="React" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" width="30px" title="Redux" />
