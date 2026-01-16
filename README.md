@@ -3,17 +3,17 @@
 -->
 
 <!-- Profile -->
-<h1 align="center">
+<h1 align="left">
   <a href="https://git.io/typing-svg">
     <picture>
       <!-- Dark mode version -->
       <source
-        srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=FFFFFF&width=440&lines=Hi+%F0%9F%91%8B%2C+Welcome+to+my+Github"
+        srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=FFFFFF&width=440&lines=Hi+%F0%9F%91%8B%2C+Welcome"
         media="(prefers-color-scheme: dark)"
       />
       <!-- Light mode version -->
       <img
-        src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=000000&width=440&lines=Hi+%F0%9F%91%8B%2C+Welcome+to+my+Github"
+        src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=000000&width=440&lines=Hi+%F0%9F%91%8B%2C+Welcome"
         alt="Typing SVG (Fira Code)"
       />
     </picture>
@@ -62,6 +62,7 @@
 ## ⚡ Skills
 
 <p align="left">
+  <!-- Frontend -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="34" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" width="34" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="34" />
@@ -69,19 +70,25 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="34" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" width="34" />
 
+  <!-- Backend / Platform -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="34" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="34" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="34" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="34" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="34" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="34" />
 
+  <!-- Tooling / Testing -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="34" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="34" />
   <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/amazonaws.svg" width="34" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" width="34" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cypressio/cypressio-original.svg" width="34" />
 
+  <!-- Design / 3D -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="34" />
   <img src="https://cdn-icons-png.flaticon.com/128/888/888835.png" width="34" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" width="34" />
+  <img src="https://img.icons8.com/color/48/cinema-4d.png" width="34" />
 </p>
 
 
