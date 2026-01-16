@@ -1,6 +1,6 @@
-<!-- 
+
 [![MasterHead](https://mir-s3-cdn-cf.behance.net/project_modules/fs/579fe1183178475.653aa8931b193.gif)](https://mikalasa.github.io/ProfileWeb/)
--->
+
 
 <!-- Profile -->
 <h1 align="left">
@@ -48,18 +48,9 @@
 </div>
 
 
-<!--
-<div align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamwwNHZkY2UxcXNibDczZzFxdjFwZTNtN3J2aGdqbm9rOGFvdGtjayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g06HKnMmtK1aXurndU/giphy.webp" alt="GIF" height="100" />
-</div>
--->
-
-
-
-
 <!-- Skills -->
 
-## 🛠️ Core Tech & Tools
+## 🚀 Core Tech & Tools
 
 <p align="left">
   <!-- Frontend -->
@@ -67,17 +58,13 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" title="TypeScript" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="36" title="JavaScript" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="36" title="Tailwind CSS" />
-
   <!-- Backend -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" title="Node.js" />
-
   <!-- Interaction & Graphics -->
   <img src="https://img.icons8.com/nolan/1200/three-js.jpg" width="36" title="Three.js" />
-
   <!-- Tools & DevOps -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="36" title="Docker" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" title="Git" />
-
   <!-- Design & 3D -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="36" title="Figma" />
   <img src="https://img.icons8.com/color/48/cinema-4d.png" width="34" />
