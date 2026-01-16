@@ -48,32 +48,5 @@
 </div>
 
 
-<!-- Skills -->
-
-## 🚀 Core Tech & Tools
-
-<p align="left">
-  <!-- Frontend -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" title="React" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" title="TypeScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="36" title="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="36" title="Tailwind CSS" />
-  <!-- Backend -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" title="Node.js" />
-  <!-- Interaction & Graphics -->
-  <img src="https://img.icons8.com/nolan/1200/three-js.jpg" width="36" title="Three.js" />
-  <!-- Tools & DevOps -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="36" title="Docker" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" title="Git" />
-  <!-- Design & 3D -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="36" title="Figma" />
-  <img src="https://img.icons8.com/color/48/cinema-4d.png" width="34" />
-</p>
-
-Full-stack development with interactive UI, 3D graphics, and design-driven front-end experiences.
-
-<hr style="height:1px; border-width:0; color:gray; background-color:gray">
-
-
 <!-- snake -->
 <img src="https://raw.githubusercontent.com/mikalasa/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
