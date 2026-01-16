@@ -8,12 +8,12 @@
     <picture>
       <!-- Dark mode version -->
       <source
-        srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=FFFFFF&width=440&lines=Hi+%F0%9F%91%8B%2C+Welcome"
+        srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=FFFFFF&width=440&lines=%F0%9F%91%8B+Welcome"
         media="(prefers-color-scheme: dark)"
       />
       <!-- Light mode version -->
       <img
-        src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=000000&width=440&lines=Hi+%F0%9F%91%8B%2C+Welcome"
+        src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=000000&width=440&lines=%F0%9F%91%8B+Welcome"
         alt="Typing SVG (Fira Code)"
       />
     </picture>
