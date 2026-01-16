@@ -7,23 +7,40 @@
   <a href="https://git.io/typing-svg">
     <picture>
       <!-- Dark mode version -->
-      <source srcset="https://readme-typing-svg.demolab.com?font=Roboto&weight=1000&size=24&pause=1000&color=FFFFFF&width=240&lines=Hi+%F0%9F%91%8B%2C+I'm+Xingyi" media="(prefers-color-scheme: dark)" />
+      <source
+        srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=FFFFFF&width=440&lines=Hi+%F0%9F%91%8B%2C+Welcome"
+        media="(prefers-color-scheme: dark)"
+      />
       <!-- Light mode version -->
-      <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=1000&size=24&pause=1000&color=000000&width=240&lines=Hi+%F0%9F%91%8B%2C+I'm+Xingyi" alt="Typing SVG" />
+      <img
+        src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=000000&width=440&lines=Hi+%F0%9F%91%8B%2C+Welcome"
+        alt="Typing SVG (Fira Code)"
+      />
     </picture>
   </a>
 </h1>
 
 
-## Welcome to My GitHub Page!
+<p align="left">
+  <picture>
+    <!-- Dark mode version -->
+    <source
+      srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=400&size=18&pause=99999&color=BBBBBB&width=900&lines=Let's+code+to+build+the+world%2C+and+reshape+the+world."
+      media="(prefers-color-scheme: dark)"
+    />
+    <!-- Light mode version -->
+    <img
+      src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=400&size=18&pause=99999&color=666666&width=900&lines=Let's+code+to+build+the+world%2C+and+reshape+the+world."
+      alt="Slogan"
+    />
+  </picture>
+</p>
 
-I’m a tech enthusiast who loves exploring programming and staying updated with the latest technology trends. I’m passionate about creating user-centric products that combine aesthetics with functionality.
 
 
 <!-- Following -->
 <div align="left">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW1sdmY5bmdxbWt1NmFyYWlmNW8zZXVqYnJmbWkzZnU2M2pyejNzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fV8KLSSAXharZpHR0a/giphy.webp" alt="GIF" height="100" />
-  
+
   [![Profile Website](https://img.shields.io/badge/Profile%20Web-0055FF?style=flat-square&logo=github&logoColor=white)](https://mikalasa.github.io/Profile-Web/mainWeb/)
   [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@xingyi-posts)
   [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://www.behance.net/xingyixxx)
@@ -60,7 +77,7 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="30px" title="CSS3" />
 </p>
 
-#### ⚙️ Tech Stacks
+#### 🚀 Tech Stacks
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30px" title="React" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" width="30px" title="Redux" />
@@ -88,12 +105,6 @@ I’m a tech enthusiast who loves exploring programming and staying updated with
 
 <hr style="height:1px; border-width:0; color:gray; background-color:gray">
 
-
-<!-- github state -->
-<div align="center">
-   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mikalasa&locale=en&hide_title=false&layout=compact&card_width=500&langs_count=8&theme=light&hide_border=false&order=2" height="160" alt="languages graph" />
-<img src="https://github-readme-stats.vercel.app/api?username=mikalasa&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=light&locale=en&hide_border=false&order=1" height="160" alt="stats graph" />
-</div>
 
 <!-- snake -->
 <img src="https://raw.githubusercontent.com/mikalasa/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
