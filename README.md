@@ -35,7 +35,6 @@
     />
   </picture>
 </p>
-<hr style="height:1px;border:0;background:linear-gradient(to right, transparent, #e5e7eb, transparent);" />
 
 
 <!-- Following -->
@@ -46,6 +45,9 @@
 [![Behance](https://img.shields.io/badge/Behance-555555?style=flat-square&logo=behance&logoColor=white)](https://www.behance.net/xingyixxx)
 
 </div>
+
+
+<hr style="height:1px;border:0;background:linear-gradient(to right, transparent, #e5e7eb, transparent);" />
 
 
 <!-- snake -->
