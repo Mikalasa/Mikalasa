@@ -1,6 +1,6 @@
-
+<!--
 [![MasterHead](https://mir-s3-cdn-cf.behance.net/project_modules/fs/579fe1183178475.653aa8931b193.gif)](https://mikalasa.github.io/ProfileWeb/)
-
+-->
 
 <!-- Profile -->
 <h1 align="left">
