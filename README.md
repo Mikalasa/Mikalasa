@@ -25,12 +25,12 @@
   <picture>
     <!-- Dark mode version -->
     <source
-      srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=400&size=18&pause=99999&color=BBBBBB&width=900&lines=Let's+code+to+build+the+world%2C+and+reshape+the+world."
+      srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=400&size=18&pause=99999&color=BBBBBB&width=900&lines=Let's+code+to+build+the+world."
       media="(prefers-color-scheme: dark)"
     />
     <!-- Light mode version -->
     <img
-      src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=400&size=18&pause=99999&color=666666&width=900&lines=Let's+code+to+build+the+world%2C+and+reshape+the+world."
+      src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=400&size=18&pause=99999&color=666666&width=900&lines=Let's+code+to+build+the+world."
       alt="Slogan"
     />
   </picture>
